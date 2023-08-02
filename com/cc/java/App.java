@@ -1,8 +1,7 @@
 package com.cc.java;
 
 public class App {
-    // _____ 2. Iteration :: Overloading _____ //
-    
+
     public static void main(String[] args) {
     Drone drone = new Drone();
     Worker worker = new Worker();
@@ -22,7 +21,7 @@ public class App {
     }
 
 
-    
+
     private static void output(String outputStr) {
         System.out.println(outputStr);
     }
